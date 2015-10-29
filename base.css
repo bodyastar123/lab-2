@@ -117,26 +117,29 @@ img {
 
 .subject{
     position: absolute;
-    width: 400px; 
-    border: 1px solid #69C;  
+    width: 200px; 
+    border: 1px solid #69C; 
    }
 
 .tests{
     position: absolute;
-    width: 400px; 
+    width: 100px; 
     border: 1px solid #69C; 
+    margin-left: 210px; 
    }
 
 .questions{
     position: absolute;
     width: 400px; 
     border: 1px solid #69C; 
+    margin-left: 785px; 
    }
 
 .answers{
     position: absolute;
     width: 400px; 
     border: 1px solid #69C; 
+    margin-left: 1270px; 
    }
    
  .delete_answers {
