@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <title>Предмети</title>
+</head>
+
+<body>
+
+<!-- Main -->
+<div id="main">
+    <div id="menu">
+        <ul id="mainNav">
+            <li><a href="index.html">Головна</a></li> 
+            <li><a href="show_data.php">Видача даних</a></li>
+            <li><a href="add.html">Занесення даних</a></li>
+			<li><a href="delete_data.php">Видалення даних</a></li>
+        </ul>
+    </div>
+</div>
+
+<br>
+
+<div class="conteiner">
+    <form action="add_to_subject.php"  method="post">
+            <p>Ім'я предмета: <input type="text" name="subject_name" /></p>
+            <p><input type="submit" value="Внести" title="Відправити"></p>
+			<p><input type="reset" name="reset" value="Очистити"></p>
+    </form>
+</div>
+
+
+<!-- /Main -->
+
+</body>
+</html>
+

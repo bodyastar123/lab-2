@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <title>Тести</title>
+</head>
+
+<body>
+
+<!-- Main -->
+<div id="main">
+    <div id="menu">
+        <ul id="mainNav">
+            <li><a href="index.html">Головна</a></li> 
+            <li><a href="show_data.php">Видача даних</a></li>
+            <li><a href="add.html">Занесення даних</a></li>
+			<li><a href="delete_data.php">Видалення даних</a></li>
+        </ul>
+    </div>
+</div>
+
+<br>
+
+<div class="conteiner">
+    <form action="add_to_test.php"  method="post">
+            <p>Ім'я теста: <input type="text" name="test_name" /></p>
+			<p>ID предмета: <input type="text" name="subject_id" /></p>
+            <p>Кількість завдань: <input type="text" name="how_tasks" /></p>
+			<p>Час тестування: <input type="text" name="test_time" /></p>
+			<p>Включений: <input type="text" name="enabled" /></p>
+			<p>Прохідний %: <input type="text" name="chances" /></p>
+			<p>Тип теста: <input type="text" name="test_type" /></p>
+            <p><input type="submit" value="Внести" title="Відправити"></p>
+			<p><input type="reset" name="reset" value="Очистити"></p>
+    </form>
+</div>
+
+
+<!-- /Main -->
+
+</body>
+</html>
